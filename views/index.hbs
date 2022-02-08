@@ -1,0 +1,20 @@
+
+    <h2>Hello this is the index page of {{name}} !</h2>
+    <img src="/images/ironhack-logo-white.jpg" alt="ironhack logo" width="150" />
+    <ol>
+
+      {{#if adult}}
+      <div>It's great you want to have a server of your own</div>
+      {{else }}
+      <div>You are to young to have your own server</div>
+       {{/if}}
+      
+      <li>Test LI</li>
+      {{#each hobbies}}
+        <li>
+          {{name}}
+        </li>
+      {{/each}}
+    </ol>
+    <a href="/about"> Go to about page </a>
+
